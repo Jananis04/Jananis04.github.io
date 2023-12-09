@@ -124,7 +124,7 @@ body, h1, h2, h3, p, ul, li {
     text-align: center;
     padding: 20px 0;
   }
-  /* ... previous CSS styles remain unchanged ... */
+
 
 .genre-grid {
     display: grid;
