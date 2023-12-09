@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Online Library</title>
+  <link rel="stylesheet" href="elib.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>E - Library</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#books">Books</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+        <div class="container">
+          <div class="hero-content">
+            <div class="text-content">
+              <h2 style="color:white">Welcome to Our Online Library</h2>
+              <p style="color:white">Discover a world of knowledge at your fingertips.</p>
+              <a href="#books" class="btn">Explore Books</a>
+            </div>
+            <div class="background-image"></div>
+          </div>
+        </div>
+      </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+          <h2>About Us</h2>
+          <p>Welcome to our online library! We aim to provide a vast collection of books across various genres to cater to every reader's taste. Our mission is to make knowledge easily accessible and enjoyable for everyone.</p>
+          <p>Explore our library and immerse yourself in captivating stories, informative texts, and much more. We're committed to fostering a love for reading and learning.</p>
+        </div>
+      </section>
+
+    <section id="books" class="books-section">
+      <div class="container">
+        <h2>Featured Books</h2>
+        <div class="book-grid">
+          <div class="book-item book-animate">
+            <img src="https://ew.com/thmb/rvat6WP-MplFuFNA4xJ-aGKEADc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/9781408855652-png-c57764456b554308ae1398474caab3c2.jpg" alt="Book 1">
+            <div class="book-details">
+              <h3>Harry Potter</h3>
+              <p>Author: J K Rowling</p>
+              <a href="#" class="btn">View Details</a>
+            </div>
+          </div>
+          <div class="book-item book-animate">
+            <img src="https://m.media-amazon.com/images/I/91RQ5d-eIqL._AC_UF1000,1000_QL80_.jpg" alt="Book 2">
+            <div class="book-details">
+              <h3>Percy Jackson</h3>
+              <p>Author: Rick Riordion</p>
+              <a href="#" class="btn">View Details</a>
+            </div>
+          </div>
+          <div class="book-item book-animate">
+            <img src="https://upload.wikimedia.org/wikipedia/en/9/9d/The_Lost_Hero_210.jpg" alt="Book 3">
+            <div class="book-details">
+              <h3>The Lost Hero</h3>
+              <p>Author: Rick Riordion</p>
+              <a href="#" class="btn">View Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+  
+      <section id="genres" class="genres-section">
+        <div class="container">
+          <h2>Explore Genres</h2>
+          <div class="genre-grid">
+            <div class="genre-item">
+              <a href="#fiction">Fiction</a>
+              <p>Dive into imaginative and storytelling works, where characters and events are fabricated or based on real-life situations.</p>
+            </div>
+            <div class="genre-item">
+              <a href="#non-fiction">Non-Fiction</a>
+              <p>Explore factual books based on real events, people, or information, covering various topics from history to science.</p>
+            </div>
+            <div class="genre-item">
+              <a href="#fantasy">Fantasy</a>
+              <p>Enter worlds of magic, mythical creatures, and supernatural elements that ignite the imagination.</p>
+            </div>
+            <div class="genre-item">
+              <a href="#mystery">Mystery</a>
+              <p>Engage in suspenseful narratives filled with puzzles, secrets, and thrilling investigations.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+  
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name"><br><br>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email"><br><br>
+          <label for="message">Message:</label><br>
+          <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+          <input type="submit" value="Submit" class="btn">
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Online Library. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="elib.js"></script>
+</body>
+</html>
